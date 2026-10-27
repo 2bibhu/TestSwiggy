@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/CloudTechDevOps/Kubernetes-0730.git
+    repoURL: https://github.com/2bibhu/TestSwiggy.git
     targetRevision: HEAD
     path: Day-5-Argocd
   destination: 
