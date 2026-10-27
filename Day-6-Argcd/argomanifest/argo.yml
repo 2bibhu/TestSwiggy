@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/2bibhu/TestSwiggy.git
     targetRevision: HEAD
-    path: Day-5-Argocd
+    path: Day-6-Argocd
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
