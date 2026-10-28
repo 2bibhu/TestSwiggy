@@ -1,8 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: myapp-argo-application
+  name: a360-faz-application
   namespace: argocd
+  labels:
+    service-id: fazportal
+    app-id: a360
+    owner: advisora360-platform
+    support-group: advisora360-Support
+    environement: dev
 spec:
   project: default
 
