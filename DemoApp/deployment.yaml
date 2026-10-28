@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: swiggy-app
+  name: A360-app
   labels:
-    app: swiggy-app
+    app: A360-app
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: swiggy-app
+      app: A360-app
   template:
     metadata:
       labels:
-        app: swiggy-app
+        app: A360-app
     spec:
       terminationGracePeriodSeconds: 30
       containers:
-      - name: swiggy-app
+      - name: A360-app
         image: veeranarni/hotstar:latest
         imagePullPolicy: "Always"
         ports:
